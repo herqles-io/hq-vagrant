@@ -1,0 +1,32 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-apt (2.1.1)
+      puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
+    puppetlabs-concat (1.2.4)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-postgresql (4.5.0)
+      puppetlabs-apt (< 3.0.0, >= 1.8.0)
+      puppetlabs-concat (< 2.0.0, >= 1.1.0)
+      puppetlabs-stdlib (~> 4.0)
+    puppetlabs-stdlib (4.7.0)
+    rodjek-logrotate (1.1.1)
+    stahnma-epel (1.0.2)
+    stankevich-python (1.9.6)
+      puppetlabs-stdlib (< 6.0.0, >= 4.0.0)
+      stahnma-epel (< 2.0.0, >= 1.0.1)
+
+GIT
+  remote: https://github.com/herqles-io/puppet-herqles.git
+  ref: master
+  sha: d70e765fe7e09f31cf089c566e2ef6ee2e606c03
+  specs:
+    covermymeds-herqles (1.0.0)
+      puppetlabs-stdlib (~> 4.0)
+      stankevich-python (>= 0)
+
+DEPENDENCIES
+  covermymeds-herqles (>= 0)
+  puppetlabs-postgresql (= 4.5.0)
+  rodjek-logrotate (= 1.1.1)
+

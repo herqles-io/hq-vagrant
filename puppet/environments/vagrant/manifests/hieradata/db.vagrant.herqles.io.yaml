@@ -1,0 +1,5 @@
+---
+classes:
+  - ::postgresql::server
+  - ::ntp
+postgresql::server::listen_address: '*'

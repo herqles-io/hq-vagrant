@@ -1,0 +1,7 @@
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'rodjek-logrotate',      '1.1.1'
+mod 'puppetlabs/postgresql', '4.5.0'
+
+mod 'covermymeds-herqles',
+  :git => 'https://github.com/herqles-io/puppet-herqles.git'
