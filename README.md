@@ -2,7 +2,7 @@
 
 Quickly setup a Herqles environment for development and other testing.
 
-This Vagrant is set to download the latest development version of Herqles if you would like to use the stable version
+This Vagrant is set to use the latest development version of Herqles. If you would like to use the stable version
 please see [puppet-herqles](https://github.com/herqles-io/puppet-herqles) for information on how to modify puppet
 hiera data.
 
