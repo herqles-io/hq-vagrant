@@ -36,3 +36,11 @@ password of admin
 
 The Herqles admin username and password is admin, the manager api's can be accessed at http://192.168.33.11/manager, and 
 the framework api's can be accessed at http://192.168.33.11/frameworks
+
+## TODO
+ 
+Use a vagrant.yaml for ease of configuration
+Multi-Datacenter testing
+RabbitMQ Clustering
+Multiple Manager and Framework VMs
+Multiple Worker VMs
