@@ -2,6 +2,10 @@
 
 Quickly setup a Herqles environment for development and other testing.
 
+This Vagrant is set to download the latest development version of Herqles if you would like to use the stable version
+please see [puppet-herqles](https://github.com/herqles-io/puppet-herqles) for information on how to modify puppet
+hiera data.
+
 ## How to use
 
 1. Install librarian-puppet
@@ -31,7 +35,7 @@ cd ../../..
 vagrant up
 ```
 
-You can now access the RabbitMQ managerment interface by going to http://192.168.33.10:15672 using the username and
+You can now access the RabbitMQ management interface by going to http://192.168.33.10:15672 using the username and
 password of admin
 
 The Herqles admin username and password is admin, the manager api's can be accessed at http://192.168.33.11/manager, and 
