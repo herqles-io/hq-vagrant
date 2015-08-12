@@ -1,6 +1,0 @@
----
-classes:
-  - ::ntp
-  - ::dfgdfgdf
-postgresql::globals::manage_package_repo: true
-postgresql::globals::version: '9.4'

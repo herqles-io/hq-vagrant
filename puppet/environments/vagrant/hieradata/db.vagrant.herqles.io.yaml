@@ -1,0 +1,4 @@
+postgresql::server::listen_address: '*'
+rabbitmq::delete_guest_user: true
+rabbitmq::admin_enable: true
+rabbitmq::version: '3.5.4-1'

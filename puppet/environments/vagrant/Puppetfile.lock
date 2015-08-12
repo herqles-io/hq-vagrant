@@ -1,6 +1,7 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
+    nanliu-staging (1.0.3)
     puppetlabs-apt (2.1.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
     puppetlabs-concat (1.2.4)
@@ -9,6 +10,10 @@ FORGE
       puppetlabs-apt (< 3.0.0, >= 1.8.0)
       puppetlabs-concat (< 2.0.0, >= 1.1.0)
       puppetlabs-stdlib (~> 4.0)
+    puppetlabs-rabbitmq (5.2.3)
+      nanliu-staging (< 2.0.0, >= 0.3.1)
+      puppetlabs-apt (< 3.0.0, >= 1.8.0)
+      puppetlabs-stdlib (< 5.0.0, >= 3.0.0)
     puppetlabs-stdlib (4.7.0)
     rodjek-logrotate (1.1.1)
     stahnma-epel (1.0.2)
@@ -28,5 +33,7 @@ GIT
 DEPENDENCIES
   covermymeds-herqles (>= 0)
   puppetlabs-postgresql (= 4.5.0)
+  puppetlabs-rabbitmq (= 5.2.3)
   rodjek-logrotate (= 1.1.1)
+  stahnma-epel (= 1.0.2)
 
